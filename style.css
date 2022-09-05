@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.loginbox{
+  width: 320px;
+  height: 550px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 10px 5px;
+}
+
+h1{
+  margin: 5px;
+  padding: 0 0 10px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+
+
+.loginbox p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+
+.loginbox input{
+width: 95%;
+margin-bottom: 10px;
+}
+
+.loginbox input[type="submit"]
+{
+  border:none;
+  outline: none;
+  height:40px;
+  background: #fb2525;
+  color: green;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.loginbox a{
+  margin: 6px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
